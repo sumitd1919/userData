@@ -99,11 +99,11 @@ public class UserServiceImp implements UserService {
                 if (userEntity1.isPresent()) {
                     String storedPassword = userEntity1.get().getPassword();
                     if (password.equals(storedPassword)) {
-                        return "Authenticated user";
+                        return "User Authenticated";
                     }
                     return "Wrong password";
                 }
-                return "Invalid details entered";
+                return "Invalid details entered by user";
 
             }
         }
