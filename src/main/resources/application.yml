@@ -1,0 +1,12 @@
+server:
+  port: 8070
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/testing
+    username: root
+    password: vishal@123456
+  jpa:
+    hibernate:
+      ddl auto: none
+  application:
+    name: UserDataApplication
